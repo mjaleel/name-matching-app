@@ -109,9 +109,10 @@ def to_excel(df):
     return output
 
 # ========== Streamlit UI ==========
+st.markdown("### 👨‍💻 برمجة: محمد عبدالجليل")
 st.set_page_config(page_title="تطبيق المطابقة", layout="centered")
 st.title("🔐 حماية الدخول")
-st.markdown("### 👨‍💻 برمجة: محمد عبدالجليل")
+
 password = st.text_input("أدخل كلمة المرور:", type="password")
 
 if password == "mjaleel":
