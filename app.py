@@ -110,8 +110,8 @@ def to_excel(df):
 
 # ========== Streamlit UI ==========
 st.set_page_config(page_title="تطبيق المطابقة", layout="centered")
-st.title("🔐 حماية الدخول")
-st.subheader("برمجة وتصميم محمد عبدالجليل") 
+st.title("🔐محمد حماية الدخول")
+
 password = st.text_input("أدخل كلمة المرور:", type="password")
 
 if password == "mjaleel":
